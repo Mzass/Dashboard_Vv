@@ -27,25 +27,20 @@ npm install
 
 Frontend (Vue.js)
 
-cd ../frontend
+cd frontend
 npm install
 
 2. Levantar a base de dados com Docker
 
 Requisitos:
 
-Docker Desktop a funcionar
-
 WSL 2 instalado e ativado no Windows
 
 Comando:
 
-cd ../database/docker
+cd database/docker
 docker-compose up --build
 
-Acesso ao phpMyAdmin:
-
-http://localhost:8082
 
 3. Iniciar o backend
 
@@ -57,7 +52,10 @@ node server.js
 cd frontend
 npm run serve
 
-Acede à aplicação em:
+Acede à aplicação :
+
+phpMyAdmin
+
 http://172.23.186.86:8082/
 
 🔐 Credenciais padrão (exemplo)
@@ -74,7 +72,7 @@ Confirma estes dados no ficheiro docker-compose.yml se forem diferentes.
 
 📎 Dicas adicionais
 
-Não faças push de node_modules/ ou data/
+Não faças push de node_modules/
 
 
 Se precisares de ajuda, contacta o responsável do projeto.

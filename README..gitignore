@@ -1,0 +1,12 @@
+# Node modules
+**/node_modules/
+
+# Ambiente
+.env
+
+# Docker volumes
+database/docker/data/
+
+# IDEs e sistema
+.DS_Store
+*.log
